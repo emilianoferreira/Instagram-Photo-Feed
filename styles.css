@@ -32,12 +32,32 @@ img{
     object-position: center;
 }
 
+
 .photo h3, p{
     padding: 5px;
 }
 
-.headder_photo{
+.headder_photo {
     display: flex;
     flex-flow: row;
-    justify-content: space-between;
+    padding: 5px;
+}
+
+#icons_photo{
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+}
+
+#puntos{
+    align-self: center;
+    margin-left: auto;
+}
+
+.fa-bookmark{
+    margin-left: auto;
+}
+
+i{
+    font-size: 20px;
 }
